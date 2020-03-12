@@ -26,14 +26,9 @@
 #background {
     background: rgba(235, 222, 222, 0.411);
     position: relative;
-    bottom: 16px;
     width: 1120px;
     margin: auto;
     
-}
-pre {
-    position: relative;
-    right: 50px;
 }
 #bdline {
     border-bottom: 0.25px;
@@ -42,22 +37,34 @@ pre {
     width: 1120px;
     margin: auto;
     position: relative;
-    bottom: 28px;
 }
 #tagline {
     font-size: 15px;
     position: relative;
     left: 500px;
-    bottom: 30px;
 }
 #btline {
     font-size: 13px;
     position: relative;
-    bottom: 30px;
     left: 390px;
 }
 label {
     position: relative;
     left: 500px;
-    bottom: 20px;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.grey {
+    font-size: 12px;
+    color: grey;
+    opacity: 0.9;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+.gray {
+    font-size: 13px;
 }
