@@ -1,0 +1,113 @@
+h1 {
+    font-family: lobster;
+    text-decoration: underline;
+    font-size: 50px;
+    padding: 40px 40px 20px 40px;
+    color: red;
+}
+body {
+    margin: 0px;
+    color: black;
+}
+#no1 {
+    height:300px;
+    width: 470px;    
+}
+#no2 {
+    height: 300px;
+    width: 480px;
+}
+#no3 {
+    height: 300px;
+    width: 450px;
+}
+#no4 {
+    height: 300px;
+    width: 100%;
+}
+#no5 {
+    height: 300px;
+    width: 100%;
+}
+#no6 {
+    height: 300px;
+    width: 100%;
+}
+#no7 {
+    height: 280px;
+    width: 100%;
+}
+#no8 {
+    height: 280px;
+    width: 100%;
+}
+#no9 {
+    height: 280px;
+    width: 100%;
+}
+#images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#nav {
+    font-size: 20px;
+    position: relative;
+    top: 95px;
+}
+a {
+    color: black;
+
+}
+#head {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: lobster;
+    text-decoration: underline;
+    margin-right: 20px;
+    
+}
+#nav {
+    height:22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    margin-right: 20px;
+}
+#nav a {
+    color:#ff0000;
+    text-decoration: none;
+    transition: color 0.5s;
+    margin-right: 20px;
+}
+#nav:hover {
+    border-bottom: 1px solid blue;
+}
+#nav a:hover {
+    color: blue;
+}
+img:hover {
+    -webkit-transform: scale(-1);
+    transform: scaleX(-1);
+}
+@media (max-width: 1200px) {
+    a {
+        font-size: 15px;
+        position: relative;
+        bottom: 30px;
+    }
+    a:hover {
+        font-size: 15px;
+        position: relative;
+        bottom: 30px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    img {
+        height: 200px;
+        width: 250px;
+    }
+    img:hover {
+        height: 200px;
+        width: 250px;
+    }
+}
