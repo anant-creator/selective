@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title title="Selective Best survey Form"></title>
+        <link rel="shortcut icon" href="https://samanthaburgagni.files.wordpress.com/2013/02/i-love-shopping.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">    
+    </head>
+    
+    <style>
+        body {
+            margin: 0px;
+            background-image: URL("https://upload.wikimedia.org/wikipedia/commons/1/1e/Shoppers_on_Dundas%2C_near_Yonge.jpg");
+            background-color: rgba(0, 0, 0, 1);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Roboto;
+    
+        }
+
+        div {
+            background-color: rgba(133, 79, 184, 0.5);
+            height: 700px;
+            width: 700px;
+            border-radius: 50px;
+            position: relative;
+            left: 300px;
+            text-align: center;
+            
+        }
+        #sur {
+            position: relative;
+            bottom: 20px;
+            left: 30px; 
+        }
+        label {
+            font-size: 30px;
+        }
+        #text {
+            height: 10px;
+        }
+        #form {
+            margin-bottom: 30px;
+            padding: 5px;
+            background-color: rgb(138, 127, 207);
+            border-radius: 10px;
+        }
+        button {
+            padding: 10px;
+            background-color: magenta;
+            border-radius: 8px;
+            margin-top:30px;
+        }
+        span {
+            text-align: left;
+            
+        }
+        
+    </style>
+<body>
+    <div>
+        <h1>Selective best</h1>
+        <p id="sur">Survey Form</p>
+        
+        <form>
+            
+            <label for="Name">Name:
+            <input id="form" style="font-size:18pt;height:30px;width:500px; border-radius: 8px;" type="text" value="Name" id="Name" placeholder="Enter your Name:-" required>
+            </label>
+            <br>
+            <label for="Email">Email:
+            <input id="form" style="font-size:18pt;height:30px;width:500px; border-radius: 8px; "type="text" value="Email" id="Email" placeholder="Enter your Email here:-" required>
+            </label>
+                <br>
+            <label for="Age">Age:
+            <input id="form" style="font-size:18pt;height:30px;width:500px; border-radius: 8px; margin-bottom: 20px;" type="number" id="Age" value="Age" placeholder="Enter your Age:-" required>
+            </label>
+            <br>
+            <span style="font-size:20px;">Select your gender:-</span>
+            <br>
+            <label id="form" style="font-size:15px;" for="Gender">Male:
+            <Input type="checkbox" value="gender" id="gender" name="male-female">
+            </label>
+            <label id="form" style="font-size:15px;" for="Gender">Female:
+                <Input type="checkbox" value="gender" id="gender" name="male-female">
+                </label>
+                <br></br>
+            <span><b>What is your current role?</b></span><br>
+            <select id="form" style="font-size:18pt;height30px;width:500px;" type="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job worker">Job Worker</option>
+                <option value="professional">Professional</option>
+            </select>
+                <br>
+                <span><b>Type your reviews about our website:</b></span>
+                <label for="review">
+                <input id="form" style="font-size:18pt;height:70px;width:500px;" type="text" id="Reveiw" value="Review" placeholder="Type your review here:" aria-required="true">
+                </label>
+                <br>
+            <button>
+                <input type="submit" id="submit" value="submit">
+            </button>
+            
+        </form>
+    </div>
+</body>
+</html>
