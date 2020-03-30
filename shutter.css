@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+  }
+
+#head {
+font-size: 40px;
+
+}
+
+#img {
+width: 1030px;
+height: 500px;
+
+}
+#div #img:hover {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1e/Shoppers_on_Dundas%2C_near_Yonge.jpg");
+  width: 1030px;
+  height: 500px;
+}
+iframe[seamless] {
+  display: block;
+}
+
+iframe {
+  height: 500px;
+}
+
+#nav {
+  font-size: 25px;
+  border-bottom: 1px solid transparent;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: lobster, sans-serif, ariel;
+  line-height: 70px;
+  background-color: turquoise;
+  border-bottom: black solid 2px;
+
+}
+#nav a {
+  color: black;
+  transition: color 2s;
+  
+}
+a {
+  text-decoration: none;
+}
+
+#nav:hover {
+border-bottom: grey solid 2px;
+}
+
+#nav a:hover {
+color: grey;
+} 
+.cards {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  border: black solid 3px;
+  margin: 15px;  
+  text-overflow: ellipsis;
+}
+#flex .cards .front img {
+  background-color: gold;
+  position: relative;
+  
+}
+#flex .cards .front img:hover, #flex .cards .front:hover {
+  transform: rotateY(270deg);
+  transition-duration: 1s;
+  
+}
+#flex .cards .front a {
+  font-family: lobster;
+  color: transparent;
+}
+#flex .cards .front:hover {
+  background-color: transparent;
+  color: #FF3362;
+}
+
+.front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  backface-visibility: none;
+
+  color: #000000;
+  text-align: center;
+  font-family: Roboto;
+  line-height: 320px;
+}
+
+#back {
+  background-color: greenyellow;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  
+}
+#flex {
+  display: flex;
+    
+}
+hr {
+  height: 12px;
+  background-color: #000000;
+}
+span {
+  font-size: 22px;
+  line-height: 40px;
+ 
+  
+}
+select {
+  background-color: turquoise;
+  font-family: lobster, roboto;
+  font-size: 22px;
+}
+.drop {
+  margin: 0px auto;
+}
+nav {
+  height: 60px;
+  background: turquoise;
+  box-shadow: o 10px 15px rgba(0,0,0,0.1);
+}
+.logo {
+  padding: 5px 0 0 80px;
+  width: 150px;
+  height:ma auto;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  margin-right: 30px;
+}
+nav ul li {
+  background: turquoise;
+  position: relative;
+  list-style: none;
+  display: inline-block; 
+}
+nav ul li a {
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  background: greenyellow;
+}
+nav ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul li {
+  width: 250px;
+  float: none;
+  display: list-item;
+  position: relative;
+  z-index: 1;
+}
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 150px;
+}
