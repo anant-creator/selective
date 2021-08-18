@@ -1,4 +1,4 @@
-corps = ["Bittu", "Pappu", "Cheenu", "Jhapki"]
+corps = ["Ron", "Adam", "creamy", "jackson"]
 for index in range(11):
     if index == 5:
     	print("One handsome guy")
